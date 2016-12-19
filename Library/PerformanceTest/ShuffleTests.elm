@@ -13,11 +13,11 @@ import Expect
 
 chooseYourTest_ : TestType
 chooseYourTest_ =
-    Hamt
+    Core
 
 
 
--- Change number of shuffles from one to two or more to reproduce the runtime error in core array.
+-- To reproduce the runtime error, make the number shuffles two or more and use Core as your TestType.
 
 
 numberOfShuffles_ : Int
